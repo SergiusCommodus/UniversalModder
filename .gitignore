@@ -1,0 +1,30 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+.secrets/
+
+# Local dependencies and temporary output
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+dist/
+temp/
+tmp/
+cache/
+*.log
+
+# Generation scratch material is local unless explicitly reviewed
+generated/
+assets/generated/
+test_output/
+downloads/
+
+# Screenshots are local evidence, not default repository contents
+screenshots/
